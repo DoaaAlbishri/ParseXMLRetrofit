@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     var authors = ArrayList<ArrayList<String>>()
     private  val TAG = "MainActivity"
     private  val BASE_URL = "https://stackoverflow.com/"
+    var bool = false
 
     lateinit var btnFetch: Button
 
